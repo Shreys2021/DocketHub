@@ -77,7 +77,7 @@ const DocketForm = ({ suppliers, poNumberMapping, excelData }) => {
         setErrorMessage('');
 
         try {
-            const response = await axios.post('http://localhost:5000/api/dockets', formData);
+            const response = await axios.post('https://dockethub.onrender.com/api/dockets', formData);
             if (response.status === 201) {
                 console.log('Docket created successfully:', response.data);
                 navigate('/docketList');
