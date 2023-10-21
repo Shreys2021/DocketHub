@@ -1,0 +1,37 @@
+/* DocketList.css */
+
+.docket-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+
+.docket-item {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.docket-item h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.docket-details {
+    margin-top: 10px;
+}
+
+.docket-details p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #666;
+}
+
+/* You can add more styles as needed */
