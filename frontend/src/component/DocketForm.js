@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './DocketForm.css';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 const DocketForm = ({ suppliers, poNumberMapping, excelData }) => {
@@ -198,6 +199,7 @@ const DocketForm = ({ suppliers, poNumberMapping, excelData }) => {
 
                 <button type="submit" className="submit-button">Create Docket</button>
             </form>
+             <Link to="/docketList">View Dockets</Link>
         </div>
     );
 }
