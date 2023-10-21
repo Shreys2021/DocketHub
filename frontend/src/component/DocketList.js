@@ -8,7 +8,7 @@ const DocketList = () => {
 
     useEffect(() => {
         axios
-            .get('http://localhost:5000/api/dockets')
+            .get('https://dockethub.onrender.com/api/dockets')
             .then((response) => {
                 setDockets(response.data);
             })
